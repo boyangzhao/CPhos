@@ -223,7 +223,7 @@ public class Utilities {
         boolean success = false;
         while (!success) {
             try {
-                URL ncbi = new URL("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=" + proteinID + "&rettype=gp&retmode=text"); //Call NCBI protein
+                URL ncbi = new URL("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=" + proteinID + "&rettype=gp&retmode=text"); //Call NCBI protein
                 BufferedReader in = new BufferedReader(
                                     new InputStreamReader(
                                     ncbi.openStream()));

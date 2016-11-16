@@ -1,0 +1,4 @@
+To run CPhos, please perform the following:
+
+1) chmod the following files so they are executables: ./exe/clustalx, ./exe/muscle, ./exe/njplot. CPhos relies on these external files to function properly. Example command: chmod +x ./exe/clustalx
+2) To run the CPhos GUI, double click on CPhos.jar to start.

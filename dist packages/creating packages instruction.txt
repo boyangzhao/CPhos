@@ -12,9 +12,6 @@ II. Mac OS X package
 1) Transfer all the files in the "dist" folder (except the README file) to the package folder
 2) Transfer all the files in the "dist files" folder to the package folder
 3) In the "dist files/exe", delete the folders named with the other OS, transfer all the files in the folder named "Mac OS X (Intel)" to the parent folder (i.e. "./exe/")
-4) Using a Mac computer with Developer Tools (XCode) installed, start "Jar Bundler" (should be located under /Developer/Applications/Utilities/Jar Bundler)
-5) In Jar Bundler, A) under build information, browser to the main class file B) under classpath and files, add all the .jar files in the lib to class path C) under properties, enter "-Xms256m -Xmx1000m" in the "VM Options" textbook
-6) Create Application, named "CPhos". A new CPhos.app will be created. Remove the CPhos.jar file. Mac users will start the CPhos program using CPhos.app.
 
 
 III. Linux package

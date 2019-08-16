@@ -12,7 +12,7 @@ II. Mac OS X package
 1) Transfer all the files in the "dist" folder (except the README file) to the package folder
 2) Transfer all the files in the "dist files" folder to the package folder
 3) In the "dist files/exe", delete the folders named with the other OS, transfer all the files in the folder named "Mac OS X (Intel)" to the parent folder (i.e. "./exe/")
-
+4) Make sure the Njplot, clustalx, and muscle in exe are executable (chmod a+x)
 
 III. Linux package
 
